@@ -1,0 +1,102 @@
+body,html{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    color: white;
+    background: black;
+}
+.showx{
+    background-image: url("https://i0.hdslb.com/bfs/live/d4fab7a666bc627cc2bcb4f00aa6d2a7958cee80.png@1440w.webp");
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 100vh;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.showx>.body{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+*{
+    box-sizing: content-box;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.display-block{
+    display: block;
+}
+hr{
+   border: 0;
+   height: 1px;
+   padding: 0;
+   width: 100%;
+   background: currentColor; 
+}
+hr[class~="75"]{
+    width: 75%;
+}
+.center{
+    margin: auto;
+    max-width: 1200px;
+}
+.footer{
+    background-color: #2f2f2f;
+    color: #fff;
+}
+.footerwrap{
+    padding: 40px 0 50px;
+    text-align: left;
+}
+.copyright{
+    background: #222;
+    padding: 16px 0 20px;
+    color: #fff;
+}
+.header{
+    color: white;
+    background-color: #ffffff30;
+    /* padding: 5px 0 5px; */
+    line-height: 20px;
+    font-size: 16px;
+    width: 100vw;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.mc-title{
+    font-family: Minecraft,Segoe UI,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
+}
+.item-show{
+    padding: 12px;
+    display: block;
+}
+.pull-left {
+    float: left!important;
+}
+.buttons-nav>.item-show{
+    float: left!important;
+    color: white;
+}
+.buttons-nav>.item-show{
+    box-sizing: border-box;
+}
+.buttons-nav>.item-show:hover{
+    color:#3c8dbc;
+    background-color: #ffffff87
+}
+a{
+    color:  #3c8dbc;
+    text-decoration: none;
+}
+.buttons-nav>.item-show a{
+    color: inherit;
+}

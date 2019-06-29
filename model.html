@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>{NavTitle} | {Title}</title>
+    <link rel="stylesheet" href="css/style.font.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <script src="js/dom.js"></script>
+    <script src="js/jumpup.js"></script>
+</head>
+
+<body>
+    <div class="showx">
+        <div class="header">
+            <div class="center">
+                <div class="name-nav pull-left item-show navbar-brand">
+                    {NavTitle}
+                </div>
+                <div class="buttons-nav pull-left" parser="nav">
+                    <a href="index.html" class="item-show">Index</a>
+                    <a href="#" class="item-show">Projects</a>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div style="height: 80px"></div>
+            <div class="center">
+                <h1 class="mc-title text-center">{PageTitle}</h1>
+                <h2 class="text-center">{PageSubTitle}</h2>
+                <hr class="" />
+                <div class="page" parser="page" id="page">
+                    <script>jjp.jump(null)</script>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerwrap">
+                <div class="center">Hope always after the storm.</div>
+            </div>
+            <div class="copyright">
+                <div class="center">
+                    <strong>Copyright &copy; 2019 Karlatemp.</strong>
+                    All rights reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+@font-face{
+    font-family:element-icons;
+    src:url(535877f50039c0cb49a6196a5b7517cd.woff) format("woff"),
+        url(732389ded34cb9c52dd88271f1345af9.ttf) format("truetype");
+    font-weight:400;
+    font-style:normal
+}
+@font-face{
+    font-family:Glyphicons Halflings;
+    src:url(f4769f9bdb7466be65088239c12046d1.eot);
+    src:url(f4769f9bdb7466be65088239c12046d1.eot?#iefix) format("embedded-opentype"),
+    url(448c34a56d699c29117adc64c43affeb.woff2) format("woff2"),
+    url(fa2772327f55d8198301fdb8bcfc8158.woff) format("woff"),
+    url(e18bbf611f2a2e43afc071aa2f4e1512.ttf) format("truetype"),
+    url(89889688147bd7575d6327160d64e760.svg#glyphicons_halflingsregular) format("svg")
+}
+@font-face{
+    font-family:Font Awesome\ 5 Free;font-style:normal;font-weight:400;
+    font-display:auto;src:url(414ff5daad323a1c47c5177d4bd29674.eot);
+    src:url(414ff5daad323a1c47c5177d4bd29674.eot?#iefix) format("embedded-opentype"),
+    url(65779ebcc35604a25c2ba77309c5b8af.woff2) format("woff2"),
+    url(5dd3976cb5d61e2e561f2a46b916f377.woff) format("woff"),
+    url(f6c6f6c8cb7784254ad00056f6fbd74e.ttf) format("truetype"),
+    url(e7e957c87c454bccaa3bf9fdaa6874f8.svg#fontawesome) format("svg")
+}
+.far{font-family:Font Awesome\ 5 Free;font-weight:400}
+@font-face{
+    font-family:Font Awesome\ 5 Free;
+    font-style:normal;font-weight:900;
+    font-display:auto;
+    src:url(b5596f4d339f99e3d69bc41be78db962.eot);
+    src:url(b5596f4d339f99e3d69bc41be78db962.eot?#iefix) format("embedded-opentype"),
+    url(462806316fea535a6a57651bc2b000b0.woff2) format("woff2"),
+    url(61969d433bf265b9717a6c357a1e04e4.woff) format("woff"),
+    url(b70cea0339374107969eb53e5b1f603f.ttf) format("truetype"),
+    url(82905d8d1c06969df11c8c378e9bdd4c.svg#fontawesome) format("svg")
+}
+.fa,.fas{font-family:Font Awesome\ 5 Free;font-weight:900
+}
+.login-logo a,
+.register-logo a,.reset-logo a{
+    font-family:Minecraft,Ubuntu,Segoe UI,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
+    transition:all .2s ease-in-out}
+    .login-logo a:hover,.register-logo a:hover,.reset-logo a:hover{
+        color:#42a5f5}.captcha{cursor:pointer}.auth-btn.el-button{width:100%}
+.btn-edit{font-size:12px;color:#367fa9}#chart{width:100%;height:400px}
+
+@font-face{
+    font-family:Ubuntu;
+    src:url(c1777245327bec775fbf955c24b98bc1.woff2) format("woff2"),
+    url(08ad9d371a15b6f695d86af3cd5de8fd.woff) format("woff")}
+@font-face{font-family:Minecraft;src:url(43821e641ba42b880259a78310388eea.woff2) format("woff2"),
+    url(1d4aae2161468c987e737d4461eca0b1.woff) format("woff")
+}
+body,h1,h2,h3,h4,h5,h6{
+    font-family:Ubuntu,Segoe UI,Microsoft Yahei,Microsoft Jhenghei,sans-serif
+}
+.logo-lg,.navbar-brand{font-family:Minecraft}
+.main-header .sidebar-toggle:before{content:""}
