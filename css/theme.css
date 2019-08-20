@@ -101,3 +101,9 @@ a{
 .buttons-nav>.item-show a{
     color: inherit;
 }
+@media (min-width: 1440px){
+    .showx{
+        background-image: url("https://dev.tencent.com/u/GYHHY/p/PubFiles/git/raw/master/d4fab7a666bc627cc2bcb4f00aa6d2a7958cee80.jpg");
+        background-size: 100% 100%;
+    }
+}
