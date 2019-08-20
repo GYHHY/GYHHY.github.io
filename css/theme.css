@@ -71,6 +71,7 @@ hr[class~="75"]{
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 233;
 }
 .mc-title{
     font-family: Minecraft,Segoe UI,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
