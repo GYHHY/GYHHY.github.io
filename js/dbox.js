@@ -23,8 +23,8 @@ var BBox = (function () {
         this.dom.style[k] = v;
         return this;
     };
-    Box.prototype.create = function (name) {
-        var d = document.createElement(name);
+    Box.prototype.create = function (name, opt) {
+        var d = document.createElement(name, opt);
         this.dom.appendChild(d);
         var b = new Box(d);
         b.parent_ = this;
@@ -46,8 +46,8 @@ var BBox = (function () {
     Box.prototype.span = function (nd) {
         return this.create("span").text(nd);
     };
-    Box.prototype.on = Box.prototype.event = function (ev, cb) {
-        this.dom.addEventListener(ev, cb);
+    Box.prototype.on = Box.prototype.event = function (ev, cb, opt) {
+        this.dom.addEventListener(ev, cb, opt);
         return this;
     };
     Box.prototype.prop = function (k) {
