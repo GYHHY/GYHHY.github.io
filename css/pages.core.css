@@ -1,0 +1,49 @@
+/*
+ * Copyright (c) 2018-2020 Karlatemp. All rights reserved.
+ * @author Karlatemp <karlatemp@vip.qq.com> <https://github.com/Karlatemp>
+ * @create 2020/02/21 08:26:48
+ *
+ * MXLib/expend.pages.core/pages.core.css
+ */
+html, body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 300px;
+    background: rgb(119, 255, 210);
+}
+
+.side-button {
+    padding: 5px;
+    background: #ffd996;
+    color: black;
+}
+
+.side-but-store {
+    padding-left: 20px;
+}
+
+.panel {
+    flex-grow: 1;
+    margin: 20px 20px;
+}
+
+hr {
+    display: block;
+    border: 1px solid white;
+    height: 0;
+}
+
+* {
+    box-sizing: content-box;
+}

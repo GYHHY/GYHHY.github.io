@@ -31,6 +31,7 @@ declare namespace Toolkit {
 }
 declare class BBox<T extends HTMLElement>{
     constructor<O extends HTMLElement>(dom: O): BBox<O>;
+    readonly dom: T;
     append(element: Node | BBox<any>): this;
     text(txt: string): this;
     html(htm: string): this;
@@ -57,6 +58,7 @@ declare class BBox<T extends HTMLElement>{
     newLink(href: string, text: string, returnLink: boolean): this | BBox<HTMLLinkElement>;
     color(color: string): this;
     bg(background: string): this;
+    classAppend(className: string): this;
     static create<K extends keyof HTMLElementTagNameMap>(tagName: K): BBox<HTMLElementTagNameMap[K]>;
     static create<K extends keyof HTMLElementDeprecatedTagNameMap>(tagName: K): BBox<HTMLElementDeprecatedTagNameMap[K]>;
     static create(tagName: string): BBox<HTMLElement>;

@@ -82,6 +82,17 @@ var BBox = (function () {
         this.dom.style.background = color;
         return this;
     };
+    Box.prototype.classAppend = function (c) {
+        var d = this.dom;
+        var cn = d.className;
+        if (cn) {
+            cn += ' ' + c;
+        } else {
+            cn = c;
+        }
+        d.className = cn;
+        return this;
+    }
     Box.create = function (name) {
         return new Box(document.createElement(name));
     }
