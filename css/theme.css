@@ -12,6 +12,7 @@ body,html{
     min-height: 100vh;
     background-origin: content-box;
     background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
 }
