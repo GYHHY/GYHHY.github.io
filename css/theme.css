@@ -1,12 +1,14 @@
-body,html{
+body,
+html {
     padding: 0;
     border: 0;
     margin: 0;
     color: white;
     background: black;
 }
-.showx{
-    background-image: url("https://dev.tencent.com/u/GYHHY/p/PubFiles/git/raw/master/d4fab7a666bc627cc2bcb4f00aa6d2a7958cee80.png%401440w.webp");
+
+.showx {
+    background-image: url("https://gyhhy.coding.net/p/PubFiles/d/PubFiles/git/raw/master/d4fab7a666bc627cc2bcb4f00aa6d2a7958cee80.jpg");
     background-attachment: fixed;
     width: 100%;
     min-height: 100vh;
@@ -16,53 +18,66 @@ body,html{
     display: flex;
     flex-direction: column;
 }
-.showx>.body{
+
+.showx>.body {
     flex-grow: 1;
     flex-shrink: 1;
 }
-*{
+
+* {
     box-sizing: content-box;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.text-right{
+
+.text-right {
     text-align: right;
 }
-.text-left{
+
+.text-left {
     text-align: left;
 }
-.display-block{
+
+.display-block {
     display: block;
 }
-hr{
-   border: 0;
-   height: 1px;
-   padding: 0;
-   width: 100%;
-   background: currentColor; 
+
+hr {
+    border: 0;
+    height: 1px;
+    padding: 0;
+    width: 100%;
+    background: currentColor;
 }
-hr[class~="75"]{
+
+hr[class~="75"] {
     width: 75%;
 }
-.center{
+
+.center {
     margin: auto;
     max-width: 1200px;
 }
-.footer{
+
+.footer {
     background-color: #2f2f2f;
     color: #fff;
 }
-.footerwrap{
+
+.footerwrap {
     padding: 40px 0 50px;
     text-align: left;
 }
-.copyright{
+
+.copyright {
     background: #222;
     padding: 16px 0 20px;
     color: #fff;
 }
-.header{
+
+.header {
     color: white;
     background-color: #ffffff30;
     /* padding: 5px 0 5px; */
@@ -74,36 +89,45 @@ hr[class~="75"]{
     top: 0;
     z-index: 233;
 }
-.mc-title{
-    font-family: Minecraft,Segoe UI,Microsoft Yahei,Microsoft Jhenghei,sans-serif;
+
+.mc-title {
+    font-family: Minecraft, Segoe UI, Microsoft Yahei, Microsoft Jhenghei, sans-serif;
 }
-.item-show{
+
+.item-show {
     padding: 12px;
     display: block;
 }
+
 .pull-left {
     float: left!important;
 }
-.buttons-nav>.item-show{
+
+.buttons-nav>.item-show {
     float: left!important;
     color: white;
 }
-.buttons-nav>.item-show{
+
+.buttons-nav>.item-show {
     box-sizing: border-box;
 }
-.buttons-nav>.item-show:hover{
-    color:#3c8dbc;
+
+.buttons-nav>.item-show:hover {
+    color: #3c8dbc;
     background-color: #ffffff87
 }
-a{
-    color:  #3c8dbc;
+
+a {
+    color: #3c8dbc;
     text-decoration: none;
 }
-.buttons-nav>.item-show a{
+
+.buttons-nav>.item-show a {
     color: inherit;
 }
-@media (min-width: 1440px){
-    .showx{
+
+@media (min-width: 1440px) {
+    .showx {
         background-image: url("https://dev.tencent.com/u/GYHHY/p/PubFiles/git/raw/master/d4fab7a666bc627cc2bcb4f00aa6d2a7958cee80.jpg");
         background-size: 100% 100%;
     }
